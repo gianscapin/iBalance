@@ -20,7 +20,6 @@ struct TaskView: View {
                 .padding(.top, 20)
             
             TextEditor(text: $descriptionNote)
-                .foregroundColor(.black)
                 .frame(height: 100)
                 .overlay {
                     RoundedRectangle(cornerRadius: 8)

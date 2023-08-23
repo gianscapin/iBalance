@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    @AppStorage("isOnlineMode") private var isOnlineMode = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form{
+            Section(header: Text("Configuración")) {
+                Toggle(isOn: $isDarkMode) {
+                    Text("Modo oscuro")
+                }
+                
+                Toggle(isOn: $isOnlineMode) {
+                    Text("Modo online")
+                }
+            }
+        }
+        .navigationTitle("Configuración")
     }
 }
 

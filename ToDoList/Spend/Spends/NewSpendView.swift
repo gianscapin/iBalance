@@ -16,6 +16,8 @@ struct NewSpendView: View {
     @State private var quantity: String = ""
     @State private var tipo: String = ""
     
+    @State private var showAlert = false
+    
     let options = ["Suscripción", "Educación", "Comida", "Ocio", "Otros"]
     
     @Binding var isShowing: Bool
@@ -35,7 +37,7 @@ struct NewSpendView: View {
                 .background(
                 RoundedRectangle(cornerRadius: 5)
                     .stroke(Color.red, lineWidth: 2))
-                .keyboardType(.numberPad)
+                .keyboardType(.default)
                 .padding()
             
             TextField("Cantidad", text: $quantity)
@@ -45,6 +47,7 @@ struct NewSpendView: View {
                 .background(
                 RoundedRectangle(cornerRadius: 5)
                     .stroke(Color.red, lineWidth: 2))
+                .keyboardType(.numberPad)
                 .padding()
             
             Picker("Tipo de gasto", selection: $tipo){
@@ -61,14 +64,18 @@ struct NewSpendView: View {
                 Spacer()
                 
                 Button {
-                    withAnimation {
-                        viewModel.addDataToCoreData(name: name, quantity: Double(quantity) ?? 0, type: 1, typeTransaction: tipo)
-                        
-                        name = ""
-                        quantity = ""
-                        
-                        isShowing = false
-                        
+                    if name.isEmpty || quantity.isEmpty || tipo.isEmpty{
+                        showAlert = true
+                    }else{
+                        withAnimation {
+                            viewModel.addDataToCoreData(name: name, quantity: Double(quantity) ?? 0, type: 1, typeTransaction: tipo)
+                            
+                            name = ""
+                            quantity = ""
+                            
+                            isShowing = false
+                            
+                        }
                     }
                 } label: {
                     Text("Crear")
@@ -79,6 +86,10 @@ struct NewSpendView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.red)
+                .alert(isPresented: $showAlert){
+                    Alert(title: Text("Campos incompletos"), message: Text("Por favor, completa todos los campos."))
+                }
+                
                 Spacer()
             }
             .padding()

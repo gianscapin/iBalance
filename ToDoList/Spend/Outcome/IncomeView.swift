@@ -10,21 +10,21 @@ import SwiftUI
 struct IncomeView: View {
     let items = ["Item 1", "Item 2", "Item 3"]
     
-    @Environment(\.managedObjectContext) private var viewContext
     @EnvironmentObject var viewModel: BalanceViewModel
-    
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Transaction.quantity, ascending: true)],
-        animation: .default)
-    private var transactions: FetchedResults<Transaction>
     
     
     @State private var isShowing: Bool = false
     
+    private func deleteIncome(offsets: IndexSet){
+        withAnimation{
+            viewModel.deleteIncomeFromCoreData(offsets: offsets)
+        }
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
-                CardAmountsView(title: "Ingresos", totalAmount: 100000, monthAmouth: 100000, percentage: 100, colorCard: Color.green)
+                CardAmountsView(title: "Ingresos", totalAmount: Int(viewModel.getTotalIncomesAmount()), monthAmouth: Int(viewModel.getTotalIncomesMonth()), percentage: 100, colorCard: Color.green.opacity(0.8))
                 
                 
                 HStack{
@@ -85,17 +85,18 @@ struct IncomeView: View {
                 .padding()
 
                 
-                if transactions.filter({$0.type == 0}).isEmpty {
+                if viewModel.transactions.filter({$0.type == 0}).isEmpty {
                     Text("No hay movimientos")
                 } else {
                     List {
-                        ForEach(transactions.filter({$0.type == 0}), id: \.self) { transaction in
+                        ForEach(viewModel.transactions.filter({$0.type == 0}), id: \.self) { transaction in
                             HStack{
                                 Text(transaction.name!)
                                 Spacer()
-                                Text("$\(transaction.quantity)")
+                                Text("$\(getAmount(amount:transaction.quantity))")
                             }
                         }
+                        .onDelete(perform: deleteIncome)
                     }
                 }
                 
@@ -104,7 +105,7 @@ struct IncomeView: View {
         }
         .sheet(isPresented: $isShowing) {
             NewIncomeView(isShowing: $isShowing)
-            NewIncomeView(isShowing: $isShowing)
+                .environmentObject(viewModel)
                 .presentationDetents([.medium])
         }
     }

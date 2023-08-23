@@ -17,13 +17,13 @@ struct SpendsView: View {
     
     private func deleteSpends(offsets: IndexSet){
         withAnimation{
-            viewModel.deleteDataFromCoreData(offsets: offsets)
+            viewModel.deleteSpendFromCoreData(offsets: offsets)
         }
     }
     
     var body: some View {
             VStack {
-                CardAmountsView(title: "Gastos", totalAmount: Int(viewModel.getTotalSpendsAmount()), monthAmouth: Int(viewModel.getTotalSpendsAmount()), percentage: 100, colorCard: Color.red)
+                CardAmountsView(title: "Gastos", totalAmount: Int(viewModel.getTotalSpendsAmount()), monthAmouth: Int(viewModel.getTotalSpendsMonth()), percentage: 100, colorCard: Color.red.opacity(0.8))
                 
                 HStack{
                     Button {
@@ -90,7 +90,7 @@ struct SpendsView: View {
                             HStack{
                                 Text(transaction.name!)
                                 Spacer()
-                                Text("$\(transaction.quantity)")
+                                Text("$\(getAmount(amount:transaction.quantity))")
                             }
                         }
                         .onDelete(perform: deleteSpends)
@@ -107,8 +107,8 @@ struct SpendsView: View {
         }
 }
 
-struct SpendsView_Previews: PreviewProvider {
-    static var previews: some View {
-        SpendsView()
-    }
-}
+//struct SpendsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SpendsView()
+//    }
+//}

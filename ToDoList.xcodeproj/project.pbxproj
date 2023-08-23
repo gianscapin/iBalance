@@ -19,6 +19,7 @@
 		65034DFD2A7F04CD00D34D41 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034DFC2A7F04CD00D34D41 /* PersistenceController.swift */; };
 		65034DFF2A7F106D00D34D41 /* NewIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034DFE2A7F106D00D34D41 /* NewIncomeView.swift */; };
 		65034E012A7F1BB400D34D41 /* NewSpendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65034E002A7F1BB400D34D41 /* NewSpendView.swift */; };
+		651AC1372A91884A000D242E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651AC1362A91884A000D242E /* Utils.swift */; };
 		654193232A7583D700A75299 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654193222A7583D700A75299 /* ToDoListApp.swift */; };
 		654193252A7583D700A75299 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654193242A7583D700A75299 /* ContentView.swift */; };
 		654193272A7583D900A75299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654193262A7583D900A75299 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		65034DFC2A7F04CD00D34D41 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		65034DFE2A7F106D00D34D41 /* NewIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIncomeView.swift; sourceTree = "<group>"; };
 		65034E002A7F1BB400D34D41 /* NewSpendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpendView.swift; sourceTree = "<group>"; };
+		651AC1362A91884A000D242E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		6541931F2A7583D700A75299 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654193222A7583D700A75299 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		654193242A7583D700A75299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				65034DEB2A78797900D34D41 /* CardCustom.swift */,
 				65034DF72A7ED77300D34D41 /* CardAmountsView.swift */,
+				651AC1362A91884A000D242E /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				65034DE62A78748600D34D41 /* SettingsView.swift in Sources */,
 				65034DFD2A7F04CD00D34D41 /* PersistenceController.swift in Sources */,
 				65034DDE2A7872FE00D34D41 /* MainTabView.swift in Sources */,
+				651AC1372A91884A000D242E /* Utils.swift in Sources */,
 				65034E012A7F1BB400D34D41 /* NewSpendView.swift in Sources */,
 				654193382A75B76900A75299 /* TaskView.swift in Sources */,
 				654193232A7583D700A75299 /* ToDoListApp.swift in Sources */,

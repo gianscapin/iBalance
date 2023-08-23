@@ -36,6 +36,7 @@ struct PersistenceController {
             newItem.name = "Compra 1"
             newItem.quantity = 100
             newItem.type = 1
+            newItem.timestamp = Date()
             newItem.typeTransaction = "Tipo 1"
             newItem.id = UUID()
         }

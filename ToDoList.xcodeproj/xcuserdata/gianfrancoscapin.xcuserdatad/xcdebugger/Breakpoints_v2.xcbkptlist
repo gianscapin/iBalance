@@ -14,8 +14,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "getTotalSpendsAmount()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "getTotalSpendsAmount()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "getTotalSpendsAmount()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "getTotalSpendsAmount()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "fetchTransactionsData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "fetchTransactionsData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,9 +110,797 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "fetchTransactionsData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8E3C64E-6835-4CF9-95AA-1BA0925B0095"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "getTransactionsLessThan5Days()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F965F71A-3724-4153-A50A-AACF1616704A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F965F71A-3724-4153-A50A-AACF1616704A - 63f4be1a032ac634"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "F965F71A-3724-4153-A50A-AACF1616704A - db8d911408e50c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D24BF72-8BDE-424F-899A-B456D874CBE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D24BF72-8BDE-424F-899A-B456D874CBE3 - 63f4be1a032ac615"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "1D24BF72-8BDE-424F-899A-B456D874CBE3 - db8d911408e50e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1D24BF72-8BDE-424F-899A-B456D874CBE3 - db8d911408e50e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - 63f4be1a032ac6b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - 547fde81e1e89dba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - db8d911408e506d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - fa84a547646c3b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - a4ea8a425a711413"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - 704394edd6c5aa10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752 - 63f4be1a032ac6b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752 - 547fde81e1e89dba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752 - a4ea8a425a711432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752 - a4ea8a425a711432"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "792">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C6CD478-7E22-40F4-9346-FC80EC9581B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C6CD478-7E22-40F4-9346-FC80EC9581B8 - 547fde81e1e89dba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "3C6CD478-7E22-40F4-9346-FC80EC9581B8 - a4ea8a425a7115d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "3C6CD478-7E22-40F4-9346-FC80EC9581B8 - a4ea8a425a7115d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBCF6911-DEE1-4A0C-BF30-0F68F02D951D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FBCF6911-DEE1-4A0C-BF30-0F68F02D951D - 547fde81e1e89d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "FBCF6911-DEE1-4A0C-BF30-0F68F02D951D - a4ea8a425a7115f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EA804D8-D51B-4051-A338-83C7ACEED0C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
+            landmarkName = "getDolarValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EA804D8-D51B-4051-A338-83C7ACEED0C8 - 547fde81e1e89d1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "4EA804D8-D51B-4051-A338-83C7ACEED0C8 - 547fde81e1e89d1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "4EA804D8-D51B-4051-A338-83C7ACEED0C8 - a4ea8a425a711555"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "1052">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76F45651-253B-476E-B815-AEC378BC0714"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "fetchDolar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 547fde81e1e89ee4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "1096">
+               </Location>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - f4128924cc8fda17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 425483a5baa1744c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 56502fc34f2f07bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 4c2d1bf9f220dfbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6717A1B7-2AED-4007-B9EA-59CE89BC12DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "fetchDolar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6717A1B7-2AED-4007-B9EA-59CE89BC12DF - 547fde81e1e89ec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+               <Location
+                  uuid = "6717A1B7-2AED-4007-B9EA-59CE89BC12DF - 56502fc34f2f079e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "174"
+                  endingLineNumber = "174"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87C8A44C-BC54-48FE-94ED-EB955949B6B7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "fetchDolar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87C8A44C-BC54-48FE-94ED-EB955949B6B7 - 63f4be1a032ac489"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "177"
+                  endingLineNumber = "177"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "87C8A44C-BC54-48FE-94ED-EB955949B6B7 - 4c2d1bf9f220df5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "176"
+                  endingLineNumber = "176"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71950EC7-CD43-42A2-AE4C-CB6845C77762"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/SpendMainView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "71950EC7-CD43-42A2-AE4C-CB6845C77762 - c1bd7823803818ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 (ToDoList.Transaction) -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;ToDoList.Transaction&gt;, ToDoList.Transaction, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #5 () -&gt; SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;ToDoList.Transaction&gt;, ToDoList.Transaction, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;ToDoList.Transaction&gt;, ToDoList.Transaction, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.Group&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in ToDoList.SpendMainView.body.getter : some"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/SpendMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "71950EC7-CD43-42A2-AE4C-CB6845C77762 - c1bd7823803818ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Spacer, SwiftUI._ConditionalContent&lt;&lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Text)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.overlay&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(_: &#x3c4;_1_0, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #1 (ToDoList.Transaction) -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;ToDoList.Transaction&gt;, ToDoList.Transaction, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt; in closure #5 () -&gt; SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;ToDoList.Transaction&gt;, ToDoList.Transaction, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.NavigationLink&lt;&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.environmentObject&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Combine.ObservableObject&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI._ConditionalContent&lt;SwiftUI.Text, SwiftUI.ScrollView&lt;SwiftUI.LazyVStack&lt;SwiftUI.ForEach&lt;Swift.Array&lt;ToDoList.Transaction&gt;, ToDoList.Transaction, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.Group&lt;&lt;&lt;opaque return type of SwiftUI.View.navigationTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in ToDoList.SpendMainView.body.getter : some"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/SpendMainView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "395809E8-4B54-432C-A851-3C836DF7A3A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0C82001-B789-457C-B3F4-479A8DAE76A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C7DA612-E08C-40E0-BCAD-ED3D7DCAB9A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C3EE22-CE09-4B88-8CDE-C8B758945F02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "deleteDataFromCoreData(offsets:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

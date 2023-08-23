@@ -11,20 +11,38 @@ struct SpendMainView: View {
     
     @StateObject var viewModel = BalanceViewModel()
     
+    
     var body: some View {
         NavigationView {
             Group {
                 VStack {
                     VStack(spacing: 0){
                         NavigationLink(destination: IncomeView().environmentObject(viewModel)) {
-                            CardCustom(name: "Ingresos", quantity: "$100000", color: Color.green)
+                            CardCustom(name: "Ingresos", quantity: "$ \(viewModel.getTotalIncomesAmount())", color: Color.green.opacity(0.8))
                                 .padding()
                         }
                         NavigationLink(destination: SpendsView().environmentObject(viewModel)) {
-                            CardCustom(name: "Gastos", quantity: "$100000", color: Color.red)
+                            CardCustom(name: "Gastos", quantity: "$ \(viewModel.getTotalSpendsAmount())", color: Color.red.opacity(0.8))
                                 .padding()
                         }
                     }
+                    
+                    HStack{
+                        Text("Valor dolar: ")
+                        if let dolar = viewModel.dolarBlue {
+                            Text("$ \(getAmount(amount: dolar))")
+                                .foregroundColor(Color.green)
+                        } else {
+                            Text("Cargando..")
+                        }
+                    }
+                    .onAppear{
+                        Task{
+                            await viewModel.fetchDolar()
+                        }
+                    }
+                    
+                    
                     HStack{
                         Text("Ultimos movimientos")
                             .bold()
@@ -34,9 +52,46 @@ struct SpendMainView: View {
                     }
                     .padding()
                     
-                    ScrollView {
-                        LazyVStack() { 
-                            
+                    if viewModel.transactions.isEmpty {
+                        Text("No hay movimientos recientes")
+                    }else{
+                        ScrollView {
+                            LazyVStack(spacing: 10) {
+                                    ForEach(viewModel.getTransactionsLessThan5Days(), id: \.self){ transaction in
+                                        ZStack{
+                                            RoundedRectangle(cornerRadius: 10)
+                                                .fill(transaction.type == 0 ? Color.green.opacity(0.4)
+                                                      : Color.red.opacity(0.4))
+                                                .overlay(
+                                                    RoundedRectangle(cornerRadius: 10)
+                                                        .strokeBorder(transaction.type == 0 ? Color.green : Color.red)
+                                                )
+                                            
+                                            HStack{
+                                                Text(transaction.typeTransaction!)
+                                                Spacer()
+                                                
+                                                if transaction.type == 0 {
+                                                    Image(systemName: "arrow.up")
+                                                        .resizable()
+                                                        .scaledToFit()
+                                                        .frame(width: 20, height: 20)
+                                                }else{
+                                                    Image(systemName: "arrow.down")
+                                                        .resizable()
+                                                        .scaledToFit()
+                                                        .frame(width: 20, height: 20)
+                                                }
+                                                
+                                                
+                                                Text("$\(getAmount(amount:transaction.quantity))")
+                                                    .bold()
+                                            }
+                                            .padding()
+                                        }
+                                        .padding(.horizontal, 10)
+                                    }
+                            }
                         }
                     }
                     

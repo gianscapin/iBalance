@@ -10,10 +10,14 @@ import SwiftUI
 struct NewIncomeView: View {
     
     @Environment(\.managedObjectContext) private var viewContext
+    @EnvironmentObject var viewModel: BalanceViewModel
     
     @State private var name: String = ""
     @State private var quantity: String = ""
     @State private var tipo: String = ""
+    
+    @State private var showAlert = false
+
     
     let options = ["Inversión", "Salario", "Transacción"]
     
@@ -34,7 +38,6 @@ struct NewIncomeView: View {
                 .background(
                 RoundedRectangle(cornerRadius: 5)
                     .stroke(Color.green, lineWidth: 2))
-                .keyboardType(.numberPad)
                 .padding()
             
             TextField("Cantidad", text: $quantity)
@@ -44,6 +47,7 @@ struct NewIncomeView: View {
                 .background(
                 RoundedRectangle(cornerRadius: 5)
                     .stroke(Color.green, lineWidth: 2))
+                .keyboardType(.numberPad)
                 .padding()
             
             Picker("Tipo de ingreso", selection: $tipo){
@@ -60,26 +64,18 @@ struct NewIncomeView: View {
                 Spacer()
                 
                 Button {
-                    withAnimation {
-                        let income = Transaction(context: viewContext)
-                        income.id = UUID()
-                        income.name = name
-                        income.quantity = Double(quantity) ?? 0
-                        income.type = 0
-                        income.typeTransaction = tipo
-                        
-                        do {
-                            try viewContext.save()
-                        }catch{
-                            let nsError = error as NSError
-                            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+                    if name.isEmpty || quantity.isEmpty || tipo.isEmpty{
+                        showAlert = true
+                    }else{
+                        withAnimation {
+                            viewModel.addDataToCoreData(name: name, quantity: Double(quantity) ?? 0, type: 0, typeTransaction: tipo)
+                            
+                            name = ""
+                            quantity = ""
+                            
+                            isShowing = false
+                            
                         }
-                        
-                        name = ""
-                        quantity = ""
-                        
-                        isShowing = false
-                        
                     }
                 } label: {
                     Text("Crear")
@@ -90,6 +86,10 @@ struct NewIncomeView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.green)
+                .alert(isPresented: $showAlert){
+                    Alert(title: Text("Campos incompletos"), message: Text("Por favor, completa todos los campos."))
+                }
+                
                 Spacer()
             }
             .padding()
