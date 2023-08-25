@@ -36,7 +36,7 @@ struct SpendsView: View {
                             .foregroundColor(.white)
                     }
                     .disabled(false)
-                    .tint(.accentColor)
+                    .tint(.red)
                     .buttonStyle(.borderedProminent)
                     .padding()
                     

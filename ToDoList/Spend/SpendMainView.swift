@@ -10,6 +10,21 @@ import SwiftUI
 struct SpendMainView: View {
     
     @StateObject var viewModel = BalanceViewModel()
+    @State private var valueBalance: Float = 0.0
+    
+    
+    private func getPercentage() -> Float {
+        if viewModel.getTotalSpendsMonth() == 0 {
+            return 0
+        }
+        if viewModel.getTotalIncomesMonth() == 0 {
+            return 100
+        }
+        
+        return Float(viewModel.getTotalSpendsMonth() * 100 / viewModel.getTotalIncomesMonth())
+        
+        
+    }
     
     
     var body: some View {
@@ -17,6 +32,9 @@ struct SpendMainView: View {
             Group {
                 VStack {
                     VStack(spacing: 0){
+                        
+                        CircleResumeView(valueBalance: getPercentage())
+                        
                         NavigationLink(destination: IncomeView().environmentObject(viewModel)) {
                             CardCustom(name: "Ingresos", quantity: "$ \(viewModel.getTotalIncomesAmount())", color: Color.green.opacity(0.8))
                                 .padding()
@@ -25,6 +43,7 @@ struct SpendMainView: View {
                             CardCustom(name: "Gastos", quantity: "$ \(viewModel.getTotalSpendsAmount())", color: Color.red.opacity(0.8))
                                 .padding()
                         }
+                        
                     }
                     
                     HStack{
@@ -91,10 +110,12 @@ struct SpendMainView: View {
                                         }
                                         .padding(.horizontal, 10)
                                     }
+                                
                             }
+
                         }
+
                     }
-                    
                     Spacer()
                     
                 }

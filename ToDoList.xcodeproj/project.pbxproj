@@ -28,6 +28,7 @@
 		654193352A7585F200A75299 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654193342A7585F200A75299 /* NoteViewModel.swift */; };
 		654193382A75B76900A75299 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654193372A75B76900A75299 /* TaskView.swift */; };
 		6541933A2A75CFC400A75299 /* ToDoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654193392A75CFC400A75299 /* ToDoTask.swift */; };
+		65785A1F2A982CE700D5F1D0 /* CircleResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65785A1E2A982CE700D5F1D0 /* CircleResumeView.swift */; };
 		658D03E82A84558E00375759 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D03E72A84558E00375759 /* BalanceViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +46,7 @@
 		65034DFE2A7F106D00D34D41 /* NewIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIncomeView.swift; sourceTree = "<group>"; };
 		65034E002A7F1BB400D34D41 /* NewSpendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSpendView.swift; sourceTree = "<group>"; };
 		651AC1362A91884A000D242E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		6541931F2A7583D700A75299 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6541931F2A7583D700A75299 /* iBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654193222A7583D700A75299 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		654193242A7583D700A75299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		654193262A7583D900A75299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +55,7 @@
 		654193342A7585F200A75299 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		654193372A75B76900A75299 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 		654193392A75CFC400A75299 /* ToDoTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTask.swift; sourceTree = "<group>"; };
+		65785A1E2A982CE700D5F1D0 /* CircleResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleResumeView.swift; sourceTree = "<group>"; };
 		658D03E72A84558E00375759 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				65034DEB2A78797900D34D41 /* CardCustom.swift */,
 				65034DF72A7ED77300D34D41 /* CardAmountsView.swift */,
 				651AC1362A91884A000D242E /* Utils.swift */,
+				65785A1E2A982CE700D5F1D0 /* CircleResumeView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -135,7 +138,7 @@
 		654193202A7583D700A75299 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6541931F2A7583D700A75299 /* ToDoList.app */,
+				6541931F2A7583D700A75299 /* iBalance.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,7 +213,7 @@
 			);
 			name = ToDoList;
 			productName = ToDoList;
-			productReference = 6541931F2A7583D700A75299 /* ToDoList.app */;
+			productReference = 6541931F2A7583D700A75299 /* iBalance.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -280,6 +283,7 @@
 				65034DDE2A7872FE00D34D41 /* MainTabView.swift in Sources */,
 				651AC1372A91884A000D242E /* Utils.swift in Sources */,
 				65034E012A7F1BB400D34D41 /* NewSpendView.swift in Sources */,
+				65785A1F2A982CE700D5F1D0 /* CircleResumeView.swift in Sources */,
 				654193382A75B76900A75299 /* TaskView.swift in Sources */,
 				654193232A7583D700A75299 /* ToDoListApp.swift in Sources */,
 				65034DE12A78733400D34D41 /* SpendView.swift in Sources */,
@@ -426,7 +430,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gscapin.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iBalance;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,7 +460,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gscapin.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iBalance;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
