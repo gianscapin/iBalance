@@ -15,7 +15,7 @@ class BalanceViewModel: ObservableObject {
     @Published var spendsMonth: [Transaction] = []
     @Published var incomes: [Transaction] = []
     @Published var incomesMonth: [Transaction] = []
-    @Published var dolarBlue: Double?
+    @Published var dolarBlue: Double? = 0.0
     
     private let viewContext = PersistenceController.shared.container.viewContext
     
@@ -42,8 +42,8 @@ class BalanceViewModel: ObservableObject {
                 }
             }
             
-            incomesMonth = getIncomesLessThan1Month()
-            spendsMonth = getSpendsLessThan1Month()
+            incomesMonth = getIncomesMonth()
+            spendsMonth = getSpendsMonth()
         }catch{
             print("DEBUG: Some error occured while fetching")
         }
@@ -67,13 +67,13 @@ class BalanceViewModel: ObservableObject {
         return amount
     }
     
-    func addDataToCoreData(name: String, quantity: Double, type: Int, typeTransaction: String){
+    func addDataToCoreData(name: String, quantity: Double, type: Int, typeTransaction: String, date: Date? = nil){
         let data = Transaction(context: viewContext)
         data.id = UUID()
         data.name = name
         data.quantity = quantity
         data.type = Int16(type)
-        data.timestamp = Date()
+        data.timestamp = date ?? Date()
         data.typeTransaction = typeTransaction
         
         save()
@@ -120,19 +120,22 @@ class BalanceViewModel: ObservableObject {
         let fiveDaysAgo = calendar.date(byAdding: .day, value: -5, to: currentDate)
         
         let transactions = transactions.filter{ transaction in
-            return transaction.timestamp! > fiveDaysAgo!
+            return transaction.timestamp! > fiveDaysAgo! && transaction.timestamp! < currentDate
         }
         
         return transactions
     }
     
-    private func getIncomesLessThan1Month() -> [Transaction]{
+    private func getIncomesMonth() -> [Transaction]{
         let calendar = Calendar.current
         let currentDate = Date()
-        let monthAgo = calendar.date(byAdding: .month, value: -1, to: currentDate)
+        let month = calendar.component(.month, from: currentDate)
+        let year = calendar.component(.year, from: currentDate)
         
         let transactions = incomes.filter{ transaction in
-            return transaction.timestamp! > monthAgo!
+            let transactionMonth = calendar.component(.month, from: transaction.timestamp!)
+            let transactionYear = calendar.component(.year, from: transaction.timestamp!)
+            return transactionMonth == month && transactionYear == year
         }
         
         return transactions
@@ -156,13 +159,17 @@ class BalanceViewModel: ObservableObject {
         return amount
     }
     
-    private func getSpendsLessThan1Month() -> [Transaction]{
+    private func getSpendsMonth() -> [Transaction]{
         let calendar = Calendar.current
         let currentDate = Date()
-        let monthAgo = calendar.date(byAdding: .month, value: -1, to: currentDate)
+        let month = calendar.component(.month, from: currentDate)
+        let year = calendar.component(.year, from: currentDate)
         
         let transactions = spends.filter{ transaction in
-            return transaction.timestamp! > monthAgo!
+            let transactionMonth = calendar.component(.month, from: transaction.timestamp!)
+            let transactionYear = calendar.component(.year, from: transaction.timestamp!)
+
+            return transactionMonth == month && transactionYear == year
         }
         
         return transactions

@@ -30,6 +30,9 @@
 		6541933A2A75CFC400A75299 /* ToDoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654193392A75CFC400A75299 /* ToDoTask.swift */; };
 		65785A1F2A982CE700D5F1D0 /* CircleResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65785A1E2A982CE700D5F1D0 /* CircleResumeView.swift */; };
 		658D03E82A84558E00375759 /* BalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D03E72A84558E00375759 /* BalanceViewModel.swift */; };
+		65BBC9F32AA81D6E0012B91B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BBC9F22AA81D6E0012B91B /* Constants.swift */; };
+		65BBC9F52AA81DB80012B91B /* TaskState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BBC9F42AA81DB80012B91B /* TaskState.swift */; };
+		65BBC9F72AA81EA70012B91B /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BBC9F62AA81EA70012B91B /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		654193392A75CFC400A75299 /* ToDoTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTask.swift; sourceTree = "<group>"; };
 		65785A1E2A982CE700D5F1D0 /* CircleResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleResumeView.swift; sourceTree = "<group>"; };
 		658D03E72A84558E00375759 /* BalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewModel.swift; sourceTree = "<group>"; };
+		65BBC9F22AA81D6E0012B91B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		65BBC9F42AA81DB80012B91B /* TaskState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskState.swift; sourceTree = "<group>"; };
+		65BBC9F62AA81EA70012B91B /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,7 @@
 				65034DF72A7ED77300D34D41 /* CardAmountsView.swift */,
 				651AC1362A91884A000D242E /* Utils.swift */,
 				65785A1E2A982CE700D5F1D0 /* CircleResumeView.swift */,
+				65BBC9F22AA81D6E0012B91B /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -175,6 +182,7 @@
 			children = (
 				654193312A75842A00A75299 /* NoteModel.swift */,
 				65034DFC2A7F04CD00D34D41 /* PersistenceController.swift */,
+				65BBC9F42AA81DB80012B91B /* TaskState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				654193342A7585F200A75299 /* NoteViewModel.swift */,
+				65BBC9F62AA81EA70012B91B /* TaskViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -267,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65034DF82A7ED77300D34D41 /* CardAmountsView.swift in Sources */,
+				65BBC9F32AA81D6E0012B91B /* Constants.swift in Sources */,
 				65034DEC2A78797900D34D41 /* CardCustom.swift in Sources */,
 				65034DE92A78779700D34D41 /* IncomeView.swift in Sources */,
+				65BBC9F52AA81DB80012B91B /* TaskState.swift in Sources */,
 				65034DFB2A7F009900D34D41 /* Model.xcdatamodeld in Sources */,
 				6541933A2A75CFC400A75299 /* ToDoTask.swift in Sources */,
 				654193352A7585F200A75299 /* NoteViewModel.swift in Sources */,
@@ -277,6 +288,7 @@
 				654193322A75842A00A75299 /* NoteModel.swift in Sources */,
 				65034DEF2A787B0C00D34D41 /* SpendsView.swift in Sources */,
 				65034DE32A78734500D34D41 /* SpendMainView.swift in Sources */,
+				65BBC9F72AA81EA70012B91B /* TaskViewModel.swift in Sources */,
 				65034DFF2A7F106D00D34D41 /* NewIncomeView.swift in Sources */,
 				65034DE62A78748600D34D41 /* SettingsView.swift in Sources */,
 				65034DFD2A7F04CD00D34D41 /* PersistenceController.swift in Sources */,

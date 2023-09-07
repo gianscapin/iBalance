@@ -36,11 +36,11 @@ struct SpendMainView: View {
                         CircleResumeView(valueBalance: getPercentage())
                         
                         NavigationLink(destination: IncomeView().environmentObject(viewModel)) {
-                            CardCustom(name: "Ingresos", quantity: "$ \(viewModel.getTotalIncomesAmount())", color: Color.green.opacity(0.8))
+                            CardCustom(name: "Ingresos", quantity: "$ \(viewModel.getTotalIncomesMonth())", color: Color.green.opacity(0.8))
                                 .padding()
                         }
                         NavigationLink(destination: SpendsView().environmentObject(viewModel)) {
-                            CardCustom(name: "Gastos", quantity: "$ \(viewModel.getTotalSpendsAmount())", color: Color.red.opacity(0.8))
+                            CardCustom(name: "Gastos", quantity: "$ \(getAmount(amount: viewModel.getTotalSpendsMonth()))", color: Color.red.opacity(0.8))
                                 .padding()
                         }
                         

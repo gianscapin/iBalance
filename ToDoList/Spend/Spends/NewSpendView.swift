@@ -15,15 +15,18 @@ struct NewSpendView: View {
     @State private var name: String = ""
     @State private var quantity: String = ""
     @State private var tipo: String = ""
+    @State private var cuotes: Int = 1
     
     @State private var showAlert = false
     
     let options = ["Suscripción", "Educación", "Comida", "Ocio", "Otros"]
     
+    let rangeCuotes = [1, 3, 6, 12]
+    
     @Binding var isShowing: Bool
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 4){
+        VStack(alignment: .leading, spacing: 2){
             Text("Nuevo gasto")
                 .font(.title)
                 .bold()
@@ -50,6 +53,27 @@ struct NewSpendView: View {
                 .keyboardType(.numberPad)
                 .padding()
             
+            HStack{
+                
+                Spacer()
+                Text("Cuotas")
+                    .font(.title2)
+                
+                Picker("Cant cuotas", selection: $cuotes){
+                    ForEach(rangeCuotes, id: \.self){cuote in
+                        Text("\(cuote)")
+                            .font(.largeTitle)
+                            .fixedSize()
+                    }
+                }
+                .pickerStyle(MenuPickerStyle())
+                .foregroundColor(.green)
+                .textFieldStyle(DefaultTextFieldStyle())
+                
+                Spacer()
+                
+            }
+            
             Picker("Tipo de gasto", selection: $tipo){
                 ForEach(options, id: \.self){option in
                     Text(option)
@@ -60,6 +84,8 @@ struct NewSpendView: View {
                 .padding()
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
+            
+            
             HStack {
                 Spacer()
                 
@@ -68,7 +94,34 @@ struct NewSpendView: View {
                         showAlert = true
                     }else{
                         withAnimation {
-                            viewModel.addDataToCoreData(name: name, quantity: Double(quantity) ?? 0, type: 1, typeTransaction: tipo)
+                            if cuotes > 1 {
+                                for i in 1...cuotes {
+                                    if i == 1 {
+                                        let nameCuote = name + " \(i)/\(cuotes)"
+                                        
+                                        let spend: Double = Double(quantity)! / Double(cuotes)
+                                        
+                                        viewModel.addDataToCoreData(name: nameCuote, quantity: spend, type: 1, typeTransaction: tipo)
+                                    } else {
+                                        let date = Date()
+                                        let calendar = Calendar.current
+                                        
+                                        let spend: Double = Double(quantity)! / Double(cuotes)
+                                        
+                                        if let nextMonth = calendar.date(byAdding: .month, value: i - 1, to: date){
+                                            let dateFormatter = DateFormatter()
+                                            
+                                            dateFormatter.dateFormat = "yyyy-MM-dd"
+                                            
+                                            let nameCuote = name + " \(i)/\(cuotes)"
+                                            
+                                            viewModel.addDataToCoreData(name: nameCuote, quantity: spend, type: 1, typeTransaction: tipo, date: nextMonth)
+                                        }
+                                    }
+                                }
+                            } else {
+                                viewModel.addDataToCoreData(name: name, quantity: Double(quantity) ?? 0, type: 1, typeTransaction: tipo)
+                            }
                             
                             name = ""
                             quantity = ""

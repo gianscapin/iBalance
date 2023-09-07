@@ -15,7 +15,7 @@ struct MainTabView: View {
                 .onTapGesture {
                     self.selectedIndex = 0
                 }
-                .environmentObject(NotesViewModel())
+                .environmentObject(TaskViewModel())
                 .tabItem {
                     VStack {
                         Image(systemName: "rectangle.badge.checkmark")

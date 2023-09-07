@@ -10,7 +10,7 @@ import SwiftUI
 struct TaskView: View {
     @State var descriptionNote: String = ""
     @Environment(\.presentationMode) var presentationMode
-    @EnvironmentObject var notesViewModel: NotesViewModel
+    @EnvironmentObject var taskViewModel: TaskViewModel
 
     var body: some View {
         VStack(alignment: .center, spacing: 30){
@@ -31,7 +31,8 @@ struct TaskView: View {
             
             Button {
                 print("Creando nota")
-                notesViewModel.saveNote(description: descriptionNote)
+                //notesViewModel.saveNote(description: descriptionNote)
+                taskViewModel.addTask(name: descriptionNote)
                 descriptionNote = ""
                 presentationMode.wrappedValue.dismiss()
             } label: {

@@ -39,6 +39,12 @@ struct PersistenceController {
             newItem.timestamp = Date()
             newItem.typeTransaction = "Tipo 1"
             newItem.id = UUID()
+            
+            let newTask = TaskAction(context: viewContext)
+            newTask.id = UUID()
+            newTask.time = Date()
+            newTask.name = "Prueba"
+            newTask.state = TaskState.TODO.stringValue
         }
         do {
             try viewContext.save()

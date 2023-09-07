@@ -142,8 +142,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -177,6 +177,21 @@
                   endingLineNumber = "158"
                   offsetFromSymbolStart = "376">
                </Location>
+               <Location
+                  uuid = "F965F71A-3724-4153-A50A-AACF1616704A - dddf911d4f1c75f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
+                  offsetFromSymbolStart = "376">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -190,8 +205,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -240,6 +255,36 @@
                   endingLineNumber = "157"
                   offsetFromSymbolStart = "204">
                </Location>
+               <Location
+                  uuid = "1D24BF72-8BDE-424F-899A-B456D874CBE3 - dddf911d4f1c7590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1D24BF72-8BDE-424F-899A-B456D874CBE3 - dddf911d4f1c7590"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "180"
+                  endingLineNumber = "180"
+                  offsetFromSymbolStart = "204">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -253,8 +298,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -348,6 +393,66 @@
                   endingLineNumber = "161"
                   offsetFromSymbolStart = "28">
                </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - dddf911d4f1c7514"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - d392184b540b6d5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - 2529a3b04035a916"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "4DE2F60B-F1FA-48E5-805B-77EB0E49BF7E - 76d2cd1abd414b17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184"
+                  offsetFromSymbolStart = "28">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -361,8 +466,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "178"
-            endingLineNumber = "178"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -426,6 +531,36 @@
                   endingLineNumber = "162"
                   offsetFromSymbolStart = "792">
                </Location>
+               <Location
+                  uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752 - 2529a3b04035a949"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "D9CCC654-864C-44D1-8ED3-0C151A2CE752 - 2529a3b04035a949"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "792">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -439,8 +574,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -489,6 +624,36 @@
                   endingLineNumber = "163"
                   offsetFromSymbolStart = "1172">
                </Location>
+               <Location
+                  uuid = "3C6CD478-7E22-40F4-9346-FC80EC9581B8 - 2529a3b04035aea8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "3C6CD478-7E22-40F4-9346-FC80EC9581B8 - 2529a3b04035aea8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "1172">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -502,8 +667,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -537,6 +702,21 @@
                   endingLineNumber = "164"
                   offsetFromSymbolStart = "1292">
                </Location>
+               <Location
+                  uuid = "FBCF6911-DEE1-4A0C-BF30-0F68F02D951D - 2529a3b04035ae8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "1292">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -550,8 +730,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "183"
-            endingLineNumber = "183"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
             landmarkName = "getDolarValue()"
             landmarkType = "7">
             <Locations>
@@ -600,6 +780,21 @@
                   endingLineNumber = "167"
                   offsetFromSymbolStart = "1052">
                </Location>
+               <Location
+                  uuid = "4EA804D8-D51B-4051-A338-83C7ACEED0C8 - 2529a3b04035ae2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.getDolarValue() async throws -&gt; Swift.Double"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "1052">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -613,8 +808,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "189"
-            endingLineNumber = "189"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "fetchDolar()"
             landmarkType = "7">
             <Locations>
@@ -693,53 +888,65 @@
                   endingLineNumber = "173"
                   offsetFromSymbolStart = "36">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6717A1B7-2AED-4007-B9EA-59CE89BC12DF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ToDoList/Spend/BalanceViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
-            landmarkName = "fetchDolar()"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "6717A1B7-2AED-4007-B9EA-59CE89BC12DF - 547fde81e1e89ec5"
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 52da6ee773fee00a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ToDoList.BalanceViewModel.getDolarValue() -&gt; ()"
-                  moduleName = "ToDoList"
+                  symbolName = "iBalance.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "iBalance"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "174"
-                  endingLineNumber = "174"
-                  offsetFromSymbolStart = "1116">
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "76">
                </Location>
                <Location
-                  uuid = "6717A1B7-2AED-4007-B9EA-59CE89BC12DF - 56502fc34f2f079e"
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 19c735e792db77a3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) suspend resume partial function for ToDoList.BalanceViewModel.fetchDolar() async -&gt; ()"
-                  moduleName = "ToDoList"
+                  symbolName = "(1) await resume partial function for iBalance.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "iBalance"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "174"
-                  endingLineNumber = "174"
-                  offsetFromSymbolStart = "72">
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 4b5e6db30d5187b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for iBalance.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "76F45651-253B-476E-B815-AEC378BC0714 - 7d03b989505ddfb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "36">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -754,8 +961,8 @@
             filePath = "ToDoList/Spend/BalanceViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
             landmarkName = "fetchDolar()"
             landmarkType = "7">
             <Locations>
@@ -787,6 +994,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "176"
                   endingLineNumber = "176"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "87C8A44C-BC54-48FE-94ED-EB955949B6B7 - 7d03b989505ddf56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for iBalance.BalanceViewModel.fetchDolar() async -&gt; ()"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/BalanceViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
                   offsetFromSymbolStart = "84">
                </Location>
             </Locations>
@@ -852,7 +1074,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "94"
             endingLineNumber = "94"
-            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkName = "deleteIncomeFromCoreData(offsets:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -868,7 +1090,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "95"
             endingLineNumber = "95"
-            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkName = "deleteIncomeFromCoreData(offsets:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -884,7 +1106,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
             endingLineNumber = "96"
-            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkName = "deleteIncomeFromCoreData(offsets:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -900,7 +1122,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
             endingLineNumber = "100"
-            landmarkName = "deleteDataFromCoreData(offsets:)"
+            landmarkName = "deleteIncomeFromCoreData(offsets:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1046,6 +1268,405 @@
                   offsetFromSymbolStart = "1220">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94872365-4B10-4DF6-87B2-56F923FCD910"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/Spends/NewSpendView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "94872365-4B10-4DF6-87B2-56F923FCD910 - c20f4788b8dd241c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in iBalance.NewSpendView.body.getter : some"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/Spends/NewSpendView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "3960">
+               </Location>
+               <Location
+                  uuid = "94872365-4B10-4DF6-87B2-56F923FCD910 - c20f4788b8dd241c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #3 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt; in iBalance.NewSpendView.body.getter : some"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/Spend/Spends/NewSpendView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "3980">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C0071DA-AF93-4284-BD76-A9937806F957"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/Spends/NewSpendView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "142E89B3-69DF-45A6-A64A-92360BA8C0B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/Spend/BalanceViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "addDataToCoreData(name:quantity:type:typeTransaction:date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C6DA6D3-5C73-463E-891B-27F15455C137"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "addTask(name:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD2AB30F-64C0-4B1D-A0E4-740DA09224FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "addTask(name:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99C86BB7-0700-48F7-9714-C956C67654F8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "addTask(name:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86D7D233-D40C-4218-8FF9-4AA4A7848ACB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "addTask(name:state:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47DED521-8355-4DB4-B751-A3704D7A3093"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "fetchTasksData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF499027-0999-47D4-BB5C-6B2E06F24D63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchTasksData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6231C4B1-A840-4036-9B1C-D61DD6F8CF90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchTasksData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33EFFEA1-6EB1-483E-93FC-D69D10D3363B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchTasksData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D8C3351-502D-4171-B7CC-E7868AAEB9E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchTasksData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "467F295F-56FB-4542-A68B-F4DD113857DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "77997BA3-EFB3-4E86-949E-D94642B93385"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12F90ED1-3E1F-4401-981D-C744FF9DFC09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "109CE3C8-0985-45B2-A889-8C7BC9DE7185"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5CD1540F-B112-4712-8BAC-5642B22A37F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4433F24D-2F14-4634-BE43-AB069CC648AF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E494C513-6884-4A3B-BAE1-04F77F645300"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "changeTaskToDoing(task:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E494C513-6884-4A3B-BAE1-04F77F645300 - d953f9b228f92926"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBalance.TaskViewModel.changeTaskToDoing(task: iBalance.TaskAction) -&gt; ()"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/ViewModel/TaskViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "1540">
+               </Location>
+               <Location
+                  uuid = "E494C513-6884-4A3B-BAE1-04F77F645300 - d953f9b228f92907"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBalance.TaskViewModel.changeTaskToDoing(task: iBalance.TaskAction) -&gt; ()"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/ViewModel/TaskViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1764">
+               </Location>
+               <Location
+                  uuid = "E494C513-6884-4A3B-BAE1-04F77F645300 - d953f9b228f92907"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iBalance.TaskViewModel.changeTaskToDoing(task: iBalance.TaskAction) -&gt; ()"
+                  moduleName = "iBalance"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gianfrancoscapin/Desktop/iBalance/iBalance/ToDoList/ViewModel/TaskViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1840">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F739BACD-7609-44ED-9FC6-BEB04FE74C51"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/ViewModel/TaskViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchTasksData()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
